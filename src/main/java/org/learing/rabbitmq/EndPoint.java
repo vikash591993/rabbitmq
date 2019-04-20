@@ -19,7 +19,7 @@ public abstract class EndPoint {
         ConnectionFactory factory = new ConnectionFactory();
         // hostname of your rabbit mq server
         factory.setHost("127.0.0.1");
-        factory.setPort(17001);
+        factory.setPort(5672);
 
         // getting a connection
         connection = factory.newConnection();
